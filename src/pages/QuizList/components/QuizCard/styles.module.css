@@ -1,0 +1,33 @@
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 23%;
+  overflow: hidden;
+  margin: 10px 10px;
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.cardTitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.cardText {
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.btn {
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+}

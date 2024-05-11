@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.quizForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.inputIcon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+.input {
+  height: 50px;
+  border: 1px solid black;
+  padding-left: 3rem;
+  /* border-radius: 35px; */
+  width: 100%;
+  box-sizing: border-box;
+  &:focus {
+    outline: none;
+    border: 1px solid blue;
+  }
+}
+.btn {
+  height: 50px;
+  background: #007bff;
+  width: 100%;
+  font-size: 16px;
+  border: 0;
+  color: #fff;
+}
+.error {
+  color: red;
+}
